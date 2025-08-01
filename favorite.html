@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>お気に入り短歌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <button class="back-button" onclick="history.back()">←</button>
+    <button class="menu-button" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- スライドメニュー -->
+  <nav class="side-menu" id="sideMenu">
+    <a href="index.html"><img src="images/home.png" alt="ホーム"></a>
+    <a href="cute.html"><img src="images/cute.png" alt="かわいい短歌"></a>
+    <a href="programmer.html"><img src="images/programmer.png" alt="プログラマ短歌"></a>
+    <a href="alone.html"><img src="images/alone.png" alt="ひとりぼっち短歌"></a>
+    <a href="author.html"><img src="images/author.png" alt="作者"></a>
+  </nav>
+
+  <main class="tanka-list">
+
+    <div class="page-title">
+        <p>お気に入り短歌</p>
+    </div>
+
+    <!-- 1つ目の短歌カード -->
+    <div class="tanka-card">
+      <img src="images/favorite_god.jpg" alt="短歌のイメージ">
+      <p class="tanka-text">呼びかけた時だけ会いに来るのなら神は弱い俺しか知らない</p>
+    </div>
+
+    <!-- 2つ目の短歌カード（左右反転） -->
+    <div class="tanka-card reverse">
+      <img src="images/favorite_sightseeing.jpg" alt="短歌のイメージ">
+      <p class="tanka-text">観光地の非日常に住んでいる彼らにとってはぼくも日常</p>
+    </div>
+
+    <!-- 以降も同様に続ける -->
+
+    <!-- 1つ目の短歌カード -->
+    <div class="tanka-card">
+        <img src="images/favorite_robot.jpg" alt="短歌のイメージ">
+        <p class="tanka-text">猫型の配膳ロボに用はない人が傷つく顔が見たいの</p>
+      </div>
+  
+      <!-- 2つ目の短歌カード（左右反転） -->
+      <div class="tanka-card reverse">
+        <img src="images/favorite_ricecake.jpg" alt="短歌のイメージ">
+        <p class="tanka-text">正月はこれで死ねると聞いたから 次はいそべかバターかきなこ</p>
+      </div>
+    
+  </main>
+
+  <footer class="pages-footer">
+    © 2025 ねこ
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

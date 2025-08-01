@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>プログラマ短歌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <button class="back-button" onclick="history.back()">←</button>
+    <button class="menu-button" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- スライドメニュー -->
+  <nav class="side-menu" id="sideMenu">
+    <a href="index.html"><img src="images/home.png" alt="ホーム"></a>
+    <a href="favorite.html"><img src="images/favorite.png" alt="お気に入り短歌"></a>
+    <a href="cute.html"><img src="images/cute.png" alt="かわいい短歌"></a>
+    <a href="alone.html"><img src="images/alone.png" alt="ひとりぼっち短歌"></a>
+    <a href="author.html"><img src="images/author.png" alt="作者"></a>
+  </nav>
+
+  <main class="tanka-list">
+
+    <div class="page-title">
+        <p>プログラマ短歌</p>
+    </div>
+
+    <!-- 1つ目の短歌カード -->
+    <div class="tanka-card">
+      <img src="images/prog_speak.jpg" alt="短歌のイメージ">
+      <p class="tanka-text">「大事な美学がぼくらには足りない」「当然でしょ理系なんだから」</p>
+    </div>
+
+    <!-- 2つ目の短歌カード（左右反転） -->
+    <div class="tanka-card reverse">
+      <img src="images/prog_ai.jpg" alt="短歌のイメージ">
+      <p class="tanka-text">「ここにいるよ」と生成し読点を増やす AIはリズムで撫でる</p>
+    </div>
+
+    <!-- 以降も同様に続ける -->
+
+    <!-- 1つ目の短歌カード -->
+    <div class="tanka-card">
+        <img src="images/prog_wave.jpg" alt="短歌のイメージ">
+        <p class="tanka-text">逆の波長でノイズ消すイヤホンでぼくの逆の音出して消してよ</p>
+      </div>
+  
+      <!-- 2つ目の短歌カード（左右反転） -->
+      <div class="tanka-card reverse">
+        <img src="images/prog_broken.jpg" alt="短歌のイメージ">
+        <p class="tanka-text">羨望を妬みに変換するバグが直せないから一番になるよ</p>
+      </div>
+    
+  </main>
+
+  <footer class="pages-footer">
+    © 2025 ねこ
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

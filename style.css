@@ -1,0 +1,207 @@
+/*indexのみ*/
+
+/* 動画を背景に敷く */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* 背面に送る */
+  }
+  
+  /* ナビゲーションメニュー */
+  .nav-menu {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin-top: 40vh;
+  }
+  
+  .nav-menu a img {
+    width: 50px; /* 好きなサイズに調整してね */
+    opacity: 0.7; /* 0.0 = 完全に透明、1.0 = 不透明 */
+    height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+    border-radius: 12px;
+  }
+  
+  .nav-menu a:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
+
+/*index以外*/
+
+  /* ヘッダー */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    /*background-color: rgba(255, 255, 255, 0.85);*/
+    z-index: 10;
+  }
+  
+  /* 戻るボタンとメニューボタン */
+  .back-button,
+  .menu-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+  }
+
+  
+  .menu-button {
+    margin-left: auto;
+    /*padding-right: 45px;*/
+  }
+  
+  /* スライドインメニュー */
+  .side-menu {
+    position: fixed;
+    top: 0;
+    right: -220px;
+    width: 90px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 60px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    transition: right 0.3s ease;
+    z-index: 9;
+    align-items: center;
+  }
+  
+  .side-menu a img {
+    width: 40px;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .side-menu a img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .side-menu.open {
+    right: 0;
+  }
+
+    /* フッター */
+  .pages-footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    padding: 12px 0;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.8;
+    pointer-events: none; /* ナビのアイコンがクリックできなくなるのを防ぐ */
+  }
+
+  
+/*authorのみ*/
+
+  /* 作者メインコンテンツ */
+  .author-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .author-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    opacity: 0.9;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .author-name {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .author-comment {
+    font-size: 0.9rem;
+    color: #666;
+    max-width: 300px;
+  }
+
+/*短歌画面*/
+
+  .tanka-list {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .page-title {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  .tanka-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .tanka-card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .tanka-card img {
+    width: 270px;
+    height: 350px;
+    object-fit: cover;     /* 中央を切り出す */
+    border-radius: 12px;
+    flex-shrink: 0;
+  }
+  
+  .tanka-text {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+    white-space: pre-line; /* 改行反映 */
+  }
+  
+  .tanka-card.reverse .tanka-text {
+    text-align: right;
+  }
+  

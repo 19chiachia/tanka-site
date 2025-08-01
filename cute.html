@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>かわいい短歌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <button class="back-button" onclick="history.back()">←</button>
+    <button class="menu-button" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- スライドメニュー -->
+  <nav class="side-menu" id="sideMenu">
+    <a href="index.html"><img src="images/home.png" alt="ホーム"></a>
+    <a href="favorite.html"><img src="images/favorite.png" alt="お気に入り短歌"></a>
+    <a href="programmer.html"><img src="images/programmer.png" alt="プログラマ短歌"></a>
+    <a href="alone.html"><img src="images/alone.png" alt="ひとりぼっち短歌"></a>
+    <a href="author.html"><img src="images/author.png" alt="作者"></a>
+  </nav>
+
+  <main class="tanka-list">
+
+    <div class="page-title">
+        <p>かわいい短歌</p>
+    </div>
+
+    <!-- 1つ目の短歌カード -->
+    <div class="tanka-card">
+      <img src="images/cute_donut.jpg" alt="短歌のイメージ">
+      <p class="tanka-text">3つずつなら入るはずの紙袋「やなことあった？ミスドが箱だ」</p>
+    </div>
+
+    <!-- 2つ目の短歌カード（左右反転） -->
+    <div class="tanka-card reverse">
+      <img src="images/cute_spicy.jpg" alt="短歌のイメージ">
+      <p class="tanka-text">超暴君ハバネロ食べる君がもし暴君になったら僕はどーしよ</p>
+    </div>
+
+    <!-- 以降も同様に続ける -->
+
+    <!-- 1つ目の短歌カード -->
+    <div class="tanka-card">
+        <img src="images/cute_shoes.jpg" alt="短歌のイメージ">
+        <p class="tanka-text">シルバーのリングもわたしも革靴も大切にされてこそ輝く</p>
+      </div>
+  
+      <!-- 2つ目の短歌カード（左右反転） -->
+      <div class="tanka-card reverse">
+        <img src="images/cute_orange.jpg" alt="短歌のイメージ">
+        <p class="tanka-text">明日のためみかんゼリーを仕込んでる私がこの世でいちばん天使</p>
+      </div>
+    
+  </main>
+
+  <footer class="pages-footer">
+    © 2025 ねこ
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

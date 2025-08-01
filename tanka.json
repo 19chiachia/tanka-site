@@ -1,0 +1,43 @@
+[
+    {
+      "img": "images/favorite_god.jpg",
+      "text": "呼びかけた時だけ会いに来るのなら神は弱い俺しか知らない",
+      "categories": ["favorite"]
+    },
+    {
+      "img": "images/favorite_sightseeing.jpg",
+      "text": "観光地の非日常に住んでいる彼らにとってはぼくも日常",
+      "categories": ["favorite"]
+    },
+    {
+      "img": "images/favorite_robot.jpg",
+      "text": "猫型の配膳ロボに用はない人が傷つく顔が見たいの",
+      "categories": ["favorite"]
+    },
+    {
+      "img": "images/favorite_ricecake.jpg",
+      "text": "正月はこれで死ねると聞いたから 次はいそべかバターかきなこ",
+      "categories": ["favorite"]
+    },
+    {
+      "img": "images/cute_donut.jpg",
+      "text": "3つずつなら入るはずの紙袋「やなことあった？ミスドが箱だ」",
+      "categories": ["cute"]
+    },
+    {
+      "img": "images/cute_spicy.jpg",
+      "text": "超暴君ハバネロ食べる君がもし暴君になったら僕はどーしよ",
+      "categories": ["cute"]
+    },
+    {
+      "img": "images/cute_shoes.jpg",
+      "text": "シルバーのリングもわたしも革靴も大切にされてこそ輝く",
+      "categories": ["cute"]
+    },
+    {
+      "img": "images/cute_orange.jpg",
+      "text": "明日のためみかんゼリーを仕込んでる私がこの世でいちばん天使",
+      "categories": ["cute"]
+    }
+  ]
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>わたしはねこ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <button class="back-button" onclick="history.back()">←</button>
+    <button class="menu-button" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- スライドメニュー -->
+  <nav class="side-menu" id="sideMenu">
+    <a href="index.html"><img src="images/home.png" alt="ホーム"></a>
+    <a href="favorite.html"><img src="images/favorite.png" alt="お気に入り短歌"></a>
+    <a href="cute.html"><img src="images/cute.png" alt="かわいい短歌"></a>
+    <a href="dev.html"><img src="images/programmer.png" alt="プログラマ短歌"></a>
+    <a href="lonely.html"><img src="images/alone.png" alt="ひとりぼっち短歌"></a>
+  </nav>
+
+  <!-- メイン：作者プロフィール -->
+  <main class="author-main">
+    <img src="images/cat_chan.jpg" alt="ねこ" class="author-img">
+    <p class="author-name">ねこ</p>
+    <p class="author-comment">短歌を書いたり<br>ご飯をつくったり<br>ホームページを制作したり<br>blenderをしたり<br>ファッションを楽しんだり</p>
+  </main>
+
+  <!-- フッター -->
+  <footer class="pages-footer">
+    © 2025 ねこ
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
