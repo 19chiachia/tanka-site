@@ -38,6 +38,46 @@
       "img": "images/cute_orange.jpg",
       "text": "明日のためみかんゼリーを仕込んでる私がこの世でいちばん天使",
       "categories": ["cute"]
+    },
+    {
+      "img": "images/prog_speak.jpg",
+      "text": "「大事な美学がぼくらには足りない」「当然でしょ理系なんだから」",
+      "categories": ["programmer"]
+    },
+    {
+      "img": "images/prog_ai.jpg",
+      "text": "「ここにいるよ」と生成し読点を増やす AIはリズムで撫でる",
+      "categories": ["programmer"]
+    },
+    {
+      "img": "images/prog_wave.jpg",
+      "text": "逆の波長でノイズ消すイヤホンでぼくの逆の音出して消してよ",
+      "categories": ["programmer"]
+    },
+    {
+      "img": "images/prog_brpken.jpg",
+      "text": "羨望を妬みに変換するバグが直せないから一番になるよ",
+      "categories": ["programmer"]
+    },
+    {
+      "img": "images/alone_child.jpg",
+      "text": "想い出のなかの中二の先輩が「遊んでおけよ」と三十路の俺に",
+      "categories": ["alone"]
+    },
+    {
+      "img": "images/alone_night.jpg",
+      "text": "泣く理由も逃げる敵もいないけど身ひとつで走り出したい夜",
+      "categories": ["alone"]
+    },
+    {
+      "img": "images/alone_promise.jpg",
+      "text": "「君が欲しいのはヤレる女？寂しい時抱くぬいぐるみ？約束？」",
+      "categories": ["alone"]
+    },
+    {
+      "img": "images/alone_train.jpg",
+      "text": "運転を再開します足元に落ちた覚悟は撤去しました",
+      "categories": ["alone"]
     }
   ]
   
